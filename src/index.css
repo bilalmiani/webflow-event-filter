@@ -1,3 +1,242 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.react-datepicker-popper{
+    z-index: 15 !important;
+}
+.sticky-style {
+    position: sticky;
+    top: 0;
+    color: #cfc200;
+    font-size: 30px;
+    z-index: 10;
+    margin-bottom: 10px;
+    backdrop-filter: blur(10px)  !important;
+}
+
+.is-sticky {
+    backdrop-filter: blur(10px);
+}
+
+.event-main_block {
+    position: relative;
+}
+.div-block-17 {
+    z-index: -1;
+    grid-column-gap: 40px;
+    justify-content: flex-start;
+    padding-top: 31px;
+    display: flex;
+}
+.div-block-50 {
+    width: 714px;
+    height: 900px;
+}
+
+.image-18 {
+    z-index: -1;
+    width: 714px;
+    height: 730px;
+}
+.html-embed-7.hide, .video-hide {
+    display: none;
+}
+.performer {
+    z-index: 0;
+}
+.heading-23 {
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: Hahmlet, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 43px;
+}
+.rich-text-block.change-row {
+    grid-row-gap: 10px;
+}
+
+
+.rich-text-block {
+    grid-row-gap: 25px;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    display: flex;
+}
+
+.button-2.buy-tickets.back.single {
+    z-index: 2147483647;
+    margin-top: 10px;
+}
+.button-2.buy-tickets.back {
+    background-color:#408dbc;
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.shining_block {
+    border-left: 5px solid #cfc200;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-image: linear-gradient(100deg, #a1aec0, rgba(249, 252, 255, .62) 20%);
+    width: 70%;
+    padding-top: 54px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    position: absolute;
+    bottom: -132px;
+    right: 0;
+}
+
+.div-block-18 {
+    width: 70%;
+    padding-right: 44px;
+}
+
+.heading-25 {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 28px;
+    font-family: Hahmlet, sans-serif;
+    font-size: 65px;
+    line-height: 106px;
+}
+.image-20 {
+    width: 216px;
+}
+.div-block-77 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.heading-13.shining, .heading-13.shining-venue {
+    color: #000;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.div-block-78 {
+    background-color: #000;
+    width: 4px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.heading-13.shining, .heading-13.shining-venue {
+    color: #000;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.div-block-78 {
+    background-color: #000;
+    width: 4px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.heading-13 {
+    color: #408dbc;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+.cost-sing {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.costheaing {
+    color: #838383;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.div-block-123 {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    display: flex;
+}
+
+.heading-18 {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.quest {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: -6px;
+    display: flex;
+}
+
+.waues-heading {
+    color: #838383;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.heading-18.culor._2nd {
+    color: #408dbc;
+    padding-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero_container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .w-container {
+    margin-left: auto;
+    margin-right: auto;
+} */
