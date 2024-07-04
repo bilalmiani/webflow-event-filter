@@ -12,15 +12,15 @@
     color: #cfc200;
     font-size: 30px;
     z-index: 10;
-    margin-bottom: 10px;
-    backdrop-filter: blur(10px)  !important;
-}
-
-.is-sticky {
+   margin-bottom: 10px;
+   backdrop-filter: blur(10px)  !important;
+  }
+  
+  .is-sticky {
     backdrop-filter: blur(10px);
-}
+  }
 
-.event-main_block {
+  .event-main_block {
     position: relative;
 }
 .div-block-17 {
@@ -91,7 +91,7 @@
     padding-bottom: 50px;
     padding-left: 40px;
     position: absolute;
-    bottom: -132px;
+    bottom: -200px;
     right: 0;
 }
 
@@ -236,6 +236,160 @@
     margin-left: auto;
     margin-right: auto;
 }
+.set-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px
+}
+
+@media(max-width:768px){
+    .heading-13.shining, .heading-13.shining-venue {
+        color: #000;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 16px !important;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .set-mb{
+        margin-bottom: 10px  !important;
+    }
+    .div-block-78 {
+        background-color: #000;
+        width: 2px;
+        height: 22px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .quest {
+        grid-column-gap: 0px !important;
+        grid-row-gap: 0px  !important;
+        margin-top: -6px;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .heading-25 {
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0px !important;
+        font-family: Hahmlet, sans-serif;
+        font-size: 35px;
+    }
+    .heading-13 {
+        color: #408dbc;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Inter, sans-serif;
+        font-size: 20px !important;
+        line-height: 24px;
+    }
+    .div-block-17 {
+        flex-direction: column;
+      }
+    
+      .div-block-50 {
+        width: 100%;
+        height: auto;
+      }
+    
+      .shining_block {
+        order: 2; /* Move the shining block below the image */
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        padding-top: 20px; /* Adjust padding as needed */
+        padding-bottom: 20px; /* Adjust padding as needed */
+        position: relative; /* Change position for better layout on mobile */
+        padding-left: 16px !important;
+      }
+    
+      .perdormer {
+        order: 1; /* Ensure performer section stays above the shining block */
+      }
+    .set-in-mobile{
+    position: absolute;
+    left: 0px;
+    margin-left: 10px;
+    }
+    .hide-in-mob{
+        display: none;
+    }
+    .image-class{
+        width: 150px;
+        height: auto;
+    }
+    .set-card{
+        padding: 0px  !important;
+    }
+}
+.btn-for-mob{
+    background-color: #408dbc !important;
+}
+a{
+    text-decoration: unset !important;
+}
+
+.set-margin{
+    margin-right: 6px;
+}
+
+@media (max-width: 768px) {
+    .set-card {
+      flex-direction: column;
+    }
+    .set-margin{
+        margin-right: 36px  !important;
+    }
+  
+    .set-card .col-12 {
+      padding: 0 !important;
+    }
+  
+    .set-card img {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      max-width: 100%;
+      height: auto;
+      padding-left: 0px !important
+    }
+  
+    .set-card .col-md-8 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+    .heading{
+        font-size: 12px;
+    }
+    .mob-sty{
+        font-size: 12px;
+    }
+    .set-pl{
+        padding-left: 0px !important;
+    }
+    .btn-for-mob{
+        display: inline-block;
+        color: #007bff !important; /* Adjust the color as needed */
+        border: 2px solid #007bff; /* Adjust the border color as needed */
+        border-radius: 50px !important; /* Makes the button rounded */
+        padding: 5px 15px; /* Adjust padding for size */
+        font-size: 16px; /* Adjust font size as needed */
+        font-weight: 500; /* Adjust font weight as needed */
+        text-align: center;
+        text-decoration: none; /* Remove underline from the link */
+        transition: background-color 0.3s, color 0.3s; 
+        background-color: white !important; 
+      }
+
+  }
+  
+  @media (min-width: 769px) {
+    .set-card .col-md-4 img {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 0px
+    }
+  }
 /* .w-container {
     margin-left: auto;
     margin-right: auto;
